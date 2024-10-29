@@ -26,7 +26,7 @@ const Input = styled.input`
   width: 100%;
   font-size: 15px;
   padding: 15px;
-  border-bottom: 1px solid rgb(100, 21, 173);
+  border-bottom: 1px solid rgb(173, 21, 39);
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -38,7 +38,7 @@ const MessageInput = styled.textarea`
   color: #333;
   font-size: 15px;
   padding: 10px;
-  border-bottom: 1px solid rgb(100, 21, 173);
+  border-bottom: 1px solid rgb(173, 21, 39);
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -50,7 +50,7 @@ const SubMitButton = styled.input`
     bottom: 20px;
     left: 600px; /* Changed from right to left */
     padding: 10px;
-    background-color: rgb(8, 8, 63);
+    background-color:#ff4d4d;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -62,19 +62,19 @@ const InputSide = () => {
   return (
     <InputSideWrapper>
       <InputWrapper>
-        <p>Name</p>
+        
         <Input type="text" placeholder="Your Name" />
       </InputWrapper>
       <InputWrapper>
-        <p>Email</p>
+        
         <Input type="email" placeholder="You email @gmai.com" />
       </InputWrapper>
       <InputWrapper>
-        <p>Phone</p>
+       
         <Input type="number" placeholder="Your phone" />
       </InputWrapper>
       <InputWrapper>
-        <p>Message</p>
+        
         <MessageInput placeholder="Write your message" />
       </InputWrapper>
       <SubMitButton type="submit" value="Send Message" />

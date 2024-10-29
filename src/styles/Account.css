@@ -1,0 +1,89 @@
+.container {
+    margin: 0;
+    padding-top: 40px;
+    
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 80vh;
+    /* Full viewport height */
+}
+
+
+
+.account-settings .about {
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+.account-settings .about h5 {
+    margin: 0 0 15px 0;
+    color: #007ae1;
+}
+
+.account-settings .about p {
+    font-size: 0.825rem;
+}
+
+.form-control {
+    background-color: #e6e6e6!important;
+}
+
+
+
+.card {
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff4d4d !important;
+    /* Sets background color to red */
+    border-color: #ff4d4d !important;
+    /* Sets border color to red */
+    color: white;
+    /* Changes text color to white for better contrast */
+}
+
+.btn-primary:hover {
+    background-color: #cc0000 !important;
+    /* Darker red for hover effect */
+    border-color: #cc0000 !important;
+}
+.btn-secondary {
+    color: #000 !important;
+    /* Change text color to black */
+    background-color: transparent !important;
+    /* Remove background color */
+    border-color: #000000 !important;
+    margin-right: 30px !important;
+    /* Keep the border color as it is (you can change this if needed) */
+}
+h3.text-primary {
+    color: #ff4d4d!important;
+    
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #000000 !important;
+    /* Set label text color to black */
+    
+    /* Set the same font size as h6 */
+}
+
+label.mb-2 {
+    color:#000000 !important;
+    /* Set h6 text color to black */
+   
+    /* Ensure h6 font size is as desired */
+}
